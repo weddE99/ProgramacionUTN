@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1567472420 source:e:\facultad\programacion1\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1567466008 source:e:\facultad\programacion1\calculadora\funciones.c
+
+1567466726 e:\facultad\programacion1\calculadora\funciones.h
+
+1567466008 source:e:\facultad\programacion1\trabajopracticon°1\funciones.c
+
+1567555017 source:e:\facultad\programacion1\trabajopracticon°1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1567714085 e:\facultad\programacion1\trabajopracticon°1\funciones.h
+

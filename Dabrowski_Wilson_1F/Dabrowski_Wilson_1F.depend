@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1570592411 source:d:\nueva carpeta\dabrowski_wilson_1f\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"clientes.h"
+	"utn.h"
+
+1570591955 d:\nueva carpeta\dabrowski_wilson_1f\clientes.h
+
+1570564692 source:d:\nueva carpeta\dabrowski_wilson_1f\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1570591275 source:d:\nueva carpeta\dabrowski_wilson_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clientes.h"
+	"utn.h"
+
+1570563906 d:\nueva carpeta\dabrowski_wilson_1f\utn.h
+
+1570506469 source:c:\users\alumno\desktop\dabrowski_wilson_1f\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"clientes.h"
+	"utn.h"
+
+1570505834 c:\users\alumno\desktop\dabrowski_wilson_1f\clientes.h
+
+1570504171 c:\users\alumno\desktop\dabrowski_wilson_1f\utn.h
+
+1570505429 source:c:\users\alumno\desktop\dabrowski_wilson_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clientes.h"
+	"utn.h"
+
+1570504161 source:c:\users\alumno\desktop\dabrowski_wilson_1f\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1570566308 source:e:\dabrowski_wilson_1f\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"clientes.h"
+	"utn.h"
+
+1570566466 e:\dabrowski_wilson_1f\clientes.h
+
+1570563906 e:\dabrowski_wilson_1f\utn.h
+
+1570566466 source:e:\dabrowski_wilson_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clientes.h"
+	"utn.h"
+
+1570564692 source:e:\dabrowski_wilson_1f\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
