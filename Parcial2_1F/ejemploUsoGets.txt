@@ -1,0 +1,36 @@
+int r; // Respuesta
+    int edad;
+    float precio;
+    char continuar;
+    char nombre[51];
+
+    // Ejemplo uso utn.c
+    do{
+        r = getInt(&edad,"Cual es tu edad?: ","Rango valido [0 - 100]",1,100);
+        if(r == 0) printf("La edad es: %d",edad);
+        else printf("\n");
+    }while(r != 0);
+
+    printf("\n\n");
+
+    do{
+        r = getFloat(&precio,"Cual es el precio?: ","Rango valido [0 - 10000]",1,10000);
+        if(r == 0) printf("El precio es: %.2f",precio);
+        else printf("\n");
+    }while(r != 0);
+
+    printf("\n\n");
+
+    do{
+        r = getChar(&continuar,"Ingrese Opcion [A][B][C]","Solo [A][B][C]",'A','C');
+        if(r == 0) printf("Opcion: %c",continuar);
+        else printf("\n");
+    }while(r != 0);
+
+    printf("\n\n");
+
+    do{
+        r = getString(nombre,"Nombre: ","El largo debe ser entre 2 y 50", 2, 50);
+        if(r == 0)printf("Nombre: %s",nombre);
+        else printf("\n");
+    }while(r != 0);

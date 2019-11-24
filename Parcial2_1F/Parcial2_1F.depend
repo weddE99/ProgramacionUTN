@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1574633853 source:c:\users\pc casa\desktop\parcial2_1f\dominio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+	"linkedList.h"
+	"objeto.h"
+	"dominio.h"
+
+1574630276 source:c:\users\pc casa\desktop\parcial2_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"dominio.h"
+
+1574618378 source:c:\users\pc casa\desktop\parcial2_1f\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1574631201 source:c:\users\pc casa\desktop\parcial2_1f\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"linkedList.h"
+
+1574631516 c:\users\pc casa\desktop\parcial2_1f\linkedlist.h
+
+1574521835 source:c:\users\pc casa\documents\parcial2_1f\dominio.c
+
+1574618934 source:c:\users\pc casa\documents\parcial2_1f\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"linkedList.h"
+
+1574618941 c:\users\pc casa\documents\parcial2_1f\linkedlist.h
+
+1574618411 source:c:\users\pc casa\documents\parcial2_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1574618378 source:c:\users\pc casa\documents\parcial2_1f\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1574614805 c:\users\pc casa\documents\parcial2_1f\utn.h
+
+1574614805 c:\users\pc casa\desktop\parcial2_1f\utn.h
+
+1574633911 c:\users\pc casa\desktop\parcial2_1f\dominio.h
+
+1574631163 c:\users\pc casa\desktop\parcial2_1f\objeto.h
+
+1574631176 source:c:\users\pc casa\desktop\parcial2_1f\objeto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"objeto.h"
+
