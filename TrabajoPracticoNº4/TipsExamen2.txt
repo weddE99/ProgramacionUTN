@@ -1,0 +1,14 @@
+Tener un proyecto con el esqueleto creado:
+
+* main.c
+* ll.c
+* ll.h
+* dominio.c /* Libreria con funciones especificadas en el pdf */
+* dominio.h
+* input/utn.c
+* input/utn.h
+
+Hacer completos los imputs (getInt, getChar...). 
+Verificar que compila todo.
+Practicar PDF.
+Examenes en papel en el campus.
