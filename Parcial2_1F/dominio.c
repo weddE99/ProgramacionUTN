@@ -137,6 +137,7 @@ void dominio_menuInicio(){
     LinkedList* listaAutos = ll_newLinkedList();
     int option = 0;
     int aux;
+    int auxiliarM = 0;
     char nombreArchivo[51];
     do{
         dominio_printfMenu();
@@ -156,18 +157,35 @@ void dominio_menuInicio(){
                 listaAutos = ll_filter(auxiliar, dominio_filtrarAutos);
 
                 system("cls");
-                if(aux == 1) printf("Cantidad de elementos en la linkedList: %d\n\n",ll_len(auxiliar));
+                if(aux == 1){
+                    printf("Cantidad de elementos en la linkedList: %d\n\n",ll_len(auxiliar));
+                    auxiliarM = 1;
+                }
                 else printf("ERROR!. Ese archivo no existe o no se pudieron cargar los datos.\n\n");
                 break;
             case 2:
-                system("cls");
-                dominio_ListObjeto(auxiliar);
-                system("pause");
-                system("cls");
+                if(auxiliarM == 1){
+                    system("cls");
+                    dominio_ListObjeto(auxiliar);
+                    system("pause");
+                    system("cls");
+                }
+                else{
+                    system("cls");
+                    printf("ERROR!. No se han cargado elementos.\n\n");
+                }
                 break;
             case 3:
-                dominio_saveAsText("auto.csv",listaAutos);
-                dominio_saveAsText("moto.csv",listaMotos);
+                if(auxiliarM == 1){
+                    system("cls");
+                    printf("Los elementos han sido guardados correctamente!\n\n");
+                    dominio_saveAsText("auto.csv",listaAutos);
+                    dominio_saveAsText("moto.csv",listaMotos);
+                }
+                else{
+                    system("cls");
+                    printf("ERROR!. No se han cargado elementos.\n\n");
+                }
                 break;
             case 4:
                 break;
